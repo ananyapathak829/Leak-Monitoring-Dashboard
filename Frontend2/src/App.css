@@ -1,0 +1,112 @@
+.dashboard{
+  display:flex;
+}
+
+.sidebar{
+  width:700px;
+  background-color:#494646;
+  padding:20px;
+}
+
+.main-content{
+  flex:1;
+  padding: 200px;
+  background-color:#fcf4f4;
+  border-radius:20px;
+}
+
+.left{
+  font-size:24px;
+}
+
+.table{
+  
+  background-color:#dadacd;
+  border-collapse: collapse;
+  padding:25px;
+  border-radius: 20px;
+  border-style: solid;
+  font-size: 20px;
+  
+
+}
+td,th{
+  font-size:30px;
+  padding:20px;
+  border-style: solid;
+
+}
+
+.statcards{
+ 
+  display:flex;
+  margin:30px;
+  gap:20px;
+  padding:20px;
+  margin-bottom:200px;
+  
+}
+
+.card{
+  border-style: solid;
+  margin:40px;
+  flex:1;
+  border-radius:20px;
+  padding:20px;
+  width:400px;
+  background-color:#43b1a2;
+}
+
+th,tr{
+  font-size:50px;
+}
+
+thead{
+  font-size: 80px;
+
+}
+
+.title{
+  font-size:60px;
+}
+
+.value{
+  font-size:40px;
+}
+.Maintitle{
+  font-size:150px;
+  text-align: center;
+  text-shadow:darkgrey
+}
+.subtitle{
+  font-size:100px
+}
+
+.Navbar{
+  flex:1;
+  
+}
+.right{
+  font-size:50px;
+}
+
+.sidetitle{
+  font-size :80px;
+  color:whitesmoke
+}
+
+.col th{
+  font-size:50px;
+}
+
+.row td{
+  font-size: 40px;
+
+}
+.table h2{
+  font-size: 90px;
+}
+
+.left{
+  color:rgba(16, 231, 88, 0.973)
+}
