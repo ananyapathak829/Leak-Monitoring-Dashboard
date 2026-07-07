@@ -5,33 +5,25 @@ function Statcards({ stats }) {
         <div className="statcards">
             <Cards
     title="Total Nodes"
-    value={stats.nodecount}
+    value={stats.totalNodes}
 />
 
 
 
 <Cards
-    title="Average Temperature"
-    value={stats.overallavgtemperature}
+    title="Healthy Nodes"
+    value={stats.healthyNodes}
     color="#3"
 />
 
 
 
 <Cards
-    title="Average Leak"
-    value={stats.overallavgleak}
+    title="Leak Nodes"
+    value={stats.leakNodes}
 />  
 
-<Cards title="Highest Temperature" 
-           value={stats.highesttemperature} 
-/>
 
-
-
-<Cards title="Maximum Leak"
-           value={stats.maxleak}
-        />
         </div>
         </>
     );
